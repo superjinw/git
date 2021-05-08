@@ -35,7 +35,7 @@ def genresp(req):
         return autoprovresp
     else:
         return "invalid request"
-		
+
 def genresp_tas(req):
     with open ("rtrv-ngfs.xml","r") as f:
         disresp=f.readlines()
